@@ -1,14 +1,14 @@
-European Green Mobility Dashboard
+## European Green Mobility Dashboard
 CO₂ Emissions Analysis – Power BI 2025
 Overview
 
 This project presents a detailed analysis of CO₂ emissions from passenger cars registered in Europe. The work focuses on exploring emission trends across manufacturers, comparing fuel types, and studying how engine capacity and vehicle mass influence CO₂ output. The dashboard was developed in Power BI with an emphasis on statistical reasoning, visual clarity, and data-driven insight.
 
-Dataset
+## Dataset
 
 The dataset is based on the official European Union Regulation (EU) 2019/631, which records detailed information about new passenger car registrations across EU member states. It contains around 4.9 million records and includes variables such as manufacturer, fuel type, engine capacity, power, vehicle mass, and CO₂ emissions.
 
-Key variables used in the analysis:
+## Key variables used in the analysis:
 
 Manufacturer (Mh, Man)
 
@@ -22,7 +22,7 @@ Vehicle Mass (m kg)
 
 CO₂ Emissions (Enedc g/km)
 
-Analytical Approach
+## Analytical Approach
 
 The project follows a structured analytical and statistical process:
 
@@ -36,7 +36,7 @@ Comparative Analysis: Compared manufacturer-level and fuel-type averages to iden
 
 Correlation Study: Explored the relationship between engine capacity, vehicle mass, and CO₂ emissions using a scatter plot.
 
-Dashboard Components
+## Dashboard Components
 
 The Power BI dashboard consists of several interactive visuals:
 
@@ -50,7 +50,7 @@ Scatter Plot: Demonstrates the positive correlation between engine capacity and 
 
 Interactive Filters: Country, Manufacturer, and Fuel Type slicers allow users to filter and explore data dynamically.
 
-Key Findings
+## Key Findings
 
 Petrol and diesel vehicles account for more than 95% of total registrations, confirming limited penetration of electric and hybrid cars.
 
