@@ -1,131 +1,135 @@
-#  European Green Mobility Dashboard
-### **CO₂ Emissions Analysis – Power BI 2025 Overview**
+European Green Mobility Dashboard
+CO₂ Emissions Analysis – Power BI 2025
+Project Overview
 
-##  Project Overview
-This project presents a **comprehensive analysis of CO₂ emissions** from new passenger cars registered in Europe. It explores emission patterns across **manufacturers**, **fuel types**, and **vehicle characteristics** such as engine capacity and mass.
+This project presents a detailed analysis of CO₂ emissions from newly registered passenger cars across Europe. It highlights emission patterns by manufacturer, fuel type, and vehicle characteristics such as engine capacity, engine power, and vehicle mass.
 
-Developed entirely in **Power BI**, the dashboard focuses on delivering **data-driven insights**, **statistical reasoning**, and **visual clarity** to support sustainable mobility decisions within the European Union context.
+The entire dashboard was developed in Power BI, with a focus on clear visual storytelling, data-driven insights, and statistical reasoning to support sustainable mobility efforts across the European Union.
 
----
+Dataset Information
 
-##  Dataset Information
-The dataset is derived from the **European Union Regulation (EU) 2019/631**, which mandates annual CO₂ reporting for all new passenger car registrations within EU member states.
+The data originates from the European Union Regulation (EU) 2019/631, which requires CO₂ reporting for all new passenger car registrations.
 
-**Size:** ~4.9 million records  
-**Source:** Official EU Open Data Portal
+Dataset Size: ~4.9 million records
+Source: EU Open Data Portal
 
-**Key Variables:**
-| Variable | Description |
-|-----------|--------------|
-| Manufacturer (Mh, Man) | Name of car manufacturer |
-| Fuel Type (Ft) | Petrol, Diesel, Electric, Hybrid, etc. |
-| Engine Capacity (ec cm³) | Engine volume in cubic centimeters |
-| Power (ep kW) | Engine power in kilowatts |
-| Vehicle Mass (m kg) | Vehicle weight in kilograms |
-| CO₂ Emissions (Enedc g/km) | Carbon dioxide emissions in grams per kilometer |
+Main Variables
 
----
+Variable	Description
+Manufacturer	Car manufacturer
+Fuel Type	Petrol, Diesel, Electric, Hybrid, etc.
+Engine Capacity (cm³)	Volume of engine
+Power (kW)	Engine power
+Vehicle Mass (kg)	Weight of the vehicle
+CO₂ Emissions (g/km)	Emissions per kilometer
+Analytical Approach
+1. Data Preparation
 
-##  Analytical Approach
-The analysis followed a structured **data analytics and statistical workflow**:
+Cleaned and standardized data using Power Query
 
-1. **Data Preparation:**  
-   - Cleaned and standardized data using **Power Query**.  
-   - Removed duplicates and handled missing values.  
-   - Ensured consistent formatting across numeric and categorical fields.  
+Removed duplicates and handled missing values
 
-2. **Descriptive Statistics:**  
-   - Computed emission averages, variances, and distributions using **DAX measures**.  
-   - Calculated key descriptive metrics (mean, standard deviation) to summarize emission trends.  
+Ensured consistent formatting for numeric and categorical fields
 
-3. **KPI Construction:**  
-   - Created KPIs for:  
-     - Average CO₂ Emission → **114.28 g/km**  
-     - Average Engine Capacity → **1.50K cm³**  
-     - Average Power → **93.45 kW**
+2. Descriptive Statistics
 
-4. **Comparative Analysis:**  
-   - Compared **manufacturer-wise** and **fuel-type-wise** emission levels.  
-   - Identified top and bottom performers using bar and pie charts.  
+Used DAX to compute averages, standard deviations, and distributions
 
-5. **Correlation Study:**  
-   - Investigated the relationship between **engine capacity**, **vehicle mass**, and **CO₂ emissions** using scatter plots.  
-   - Demonstrated a clear positive correlation trend.
+Summarized key emission indicators
 
----
+3. KPIs
 
-##  Dashboard Components
+Average CO₂ Emission: 114.28 g/km
 
-| Component | Description |
-|------------|--------------|
-| **KPI Cards** | Display key averages: CO₂ emissions, engine capacity, and power. |
-| **Bar Chart** | Visualizes average CO₂ emissions by manufacturer, identifying high and low emitters. |
-| **Pie Chart** | Illustrates the proportion of fuel types—showing petrol and diesel dominance. |
-| **Scatter Plot** | Reveals correlation between engine capacity and CO₂ output, with bubble size representing vehicle mass. |
-| **Interactive Filters** | Country, Manufacturer, and Fuel Type slicers for dynamic exploration. |
+Average Engine Capacity: 1.50K cm³
 
----
+Average Power: 93.45 kW
 
-##  Key Findings
+4. Comparative Analysis
 
-- **Fuel Type Insights:**  
-  Petrol and diesel vehicles make up **over 95%** of total registrations, showing limited adoption of electric and hybrid cars.  
+Compared emissions across manufacturers
 
-- **Emission Correlation:**  
-  Larger engines with higher capacity produce proportionally greater CO₂ emissions, confirming a **strong positive correlation** between performance and emissions.  
+Evaluated emission differences by fuel type
 
-- **Manufacturer Variation:**  
-  Luxury and sports manufacturers (e.g., BMW, Mercedes, Porsche) exhibit **notably higher average emissions**, while economy and electric brands perform better environmentally.  
+5. Correlation Study
 
-- **Sustainability Evidence:**  
-  Electric vehicles consistently rank lowest in emissions, reinforcing their role in achieving **EU Green Mobility targets**.
+Analyzed the relationship between engine capacity, mass, and CO₂ emissions
 
----
+Identified a strong positive correlation between engine size and emissions
 
-##  Skills Demonstrated
+Dashboard Components
+Component	Purpose
+KPI Cards	Display overall averages
+Bar Chart	Compare manufacturers based on emission levels
+Pie Chart	Show fuel type distribution
+Scatter Plot	Visualize the correlation between engine capacity and emissions
+Filters	Interactive slicers for manufacturer, country, and fuel type
+Key Findings
 
-- **Data Analysis & Statistics:** DAX, Descriptive Statistics, Correlation Study  
-- **Data Cleaning & Transformation:** Power Query, Data Modeling  
-- **Visualization & Reporting:** Power BI (KPIs, Charts, Filters, Dynamic Slicers)  
-- **Analytical Reasoning:** Identifying emission trends, comparative insights, and performance evaluation  
+Fuel Type Trends
+Petrol and diesel cars dominate the dataset, accounting for more than 95% of registrations. Adoption of electric and hybrid vehicles remains low.
 
----
+Emission Correlation
+Vehicles with higher engine capacity consistently show higher CO₂ emissions.
 
-##  Tools & Technologies
+Manufacturer Differences
+Premium manufacturers such as BMW, Mercedes, and Porsche show significantly higher average emissions compared to economy and electric-focused brands.
 
-- **Power BI** – Dashboard creation & DAX analytics  
-- **Power Query** – Data cleaning and transformation  
-- **Microsoft Excel** – Preliminary validation and summarization  
-- **Statistical Concepts** – Mean, variance, correlation, comparative analysis  
+Environmental Performance
+Electric vehicles show the lowest emissions, aligning with EU sustainability objectives.
 
----
+Skills Demonstrated
 
-##  Results Snapshot
+Data Analysis and Statistical Interpretation
 
-- **Average CO₂ Emission:** 114.28 g/km  
-- **Average Engine Capacity:** 1.50K cm³  
-- **Average Power:** 93.45 kW  
-- **Electric & Hybrid Share:** < 5%  
-- **Strong correlation (r ≈ 0.78)** between engine capacity and emissions  
+Power Query data cleaning and modeling
 
----
+Power BI dashboard design and DAX calculations
 
-##  Project Impact
+Exploratory analytics: correlation, comparative assessment
 
-The dashboard serves as an **evidence-based visual tool** for policymakers, environmental analysts, and automobile manufacturers to:  
-- Identify **high-emission vehicle categories**,  
-- Monitor **progress toward EU carbon targets**, and  
-- Promote **sustainable automotive innovation**.  
+Visual communication of insights
 
-It demonstrates how **data visualization and statistical reasoning** can contribute to **climate-conscious decision-making**.
+Tools and Technologies
 
----
+Power BI
 
-##  Author
+Power Query
 
-** Teerth Gupta**  
-Master’s in Statistics and Data Science, *Uppsala University*  
-📍 Sweden | 💡 Data Analytics | Power BI | Machine Learning  
+Microsoft Excel
 
- [teerthgupta19@gmail.com] 
- [GitHub Profile](https://github.com/teerthgupta)
+Statistical concepts: mean, variance, correlation
+
+Results Summary
+
+Average CO₂ Emission: 114.28 g/km
+
+Average Engine Capacity: 1.50K cm³
+
+Average Power: 93.45 kW
+
+Electric + Hybrid Share: < 5%
+
+Correlation between engine capacity and emissions: r ≈ 0.78
+
+Project Impact
+
+The dashboard provides a clear analytical framework that can help policymakers, environmental researchers, and automotive companies:
+
+Identify high-emission vehicle categories
+
+Monitor progress toward EU CO₂ reduction goals
+
+Support decision-making for sustainable mobility initiatives
+
+It demonstrates how visual analytics and statistical reasoning can contribute toward climate-conscious strategies in the automotive sector.
+
+Author
+
+Teerth Gupta
+Master’s in Statistics and Data Science, Uppsala University
+Sweden | Data Analytics | Power BI | Machine Learning
+
+Email: teerthgupta19@gmail.com
+
+GitHub: https://github.com/teerthgupta
