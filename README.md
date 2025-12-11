@@ -25,7 +25,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 | Vehicle Mass (kg) | Weight of the vehicle |
 | COâ‚‚ Emissions (g/km) | Emissions per kilometer |
 
----
+--
 
 ## Analytical Approach
 
@@ -51,7 +51,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 - Analyzed the relationship between engine capacity, mass, and emissions  
 - Found a strong positive correlation between engine size and COâ‚‚ emissions  
 
----
+--
 
 ## Dashboard Components
 
@@ -63,7 +63,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 | **Scatter Plot** | Visualize relationship between engine capacity and emissions |
 | **Filters** | Slicers for manufacturer, country, and fuel type |
 
----
+--
 
 ## Key Findings
 
@@ -72,7 +72,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 - Manufacturers such as BMW, Mercedes, and Porsche show significantly higher average emissions than economy-focused brands.  
 - Electric vehicles perform best environmentally, aligning with EU sustainability goals.  
 
----
+--
 
 ## Skills Demonstrated
 - Data analysis and interpretation  
@@ -81,7 +81,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 - Comparative analytics and correlation analysis  
 - Insightful data storytelling  
 
----
+--
 
 ## Tools and Technologies
 - Power BI  
@@ -89,7 +89,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 - Microsoft Excel  
 - Statistical methods: mean, variance, correlation  
 
----
+--
 
 ## Results Summary
 - **Average COâ‚‚ Emission:** 114.28 g/km  
@@ -98,7 +98,7 @@ The dataset originates from **EU Regulation (EU) 2019/631**, which mandates COâ‚
 - **Electric + Hybrid Share:** < 5%  
 - **Correlation (engine capacity vs emissions):** r â‰ˆ 0.78  
 
----
+--
 
 ## Project Impact
 This dashboard provides a structured analytical solution that helps policymakers, automotive researchers, and manufacturers:
@@ -109,7 +109,7 @@ This dashboard provides a structured analytical solution that helps policymakers
 
 It highlights how data visualization and analytical reasoning can contribute to environmental and policy-related decision-making.
 
----
+--
 
 ## Author
 **Teerth Gupta**  
